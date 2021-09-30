@@ -12,7 +12,7 @@
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { Input, Button } from 'core/nusi';
+import { Search, Button } from 'core/nusi';
 import { PureBoardGrid } from 'common';
 import i18n from 'i18n';
 import { goTo } from 'common/utils';
@@ -22,8 +22,6 @@ import routeInfoStore from 'core/stores/route';
 import { TimeSelectWithStore } from 'msp/components/time-select';
 import monitorCommonStore from 'common/stores/monitorCommon';
 import mspStore from 'msp/stores/micro-service';
-
-const { Search } = Input;
 
 export default () => {
   const currentProject = mspStore.useStore((s) => s.currentProject);
