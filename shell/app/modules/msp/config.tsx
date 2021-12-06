@@ -115,7 +115,11 @@ export const getMSPSubtitleByName = (key: MS_INDEX.IRootMenu) => {
 };
 
 const renderIcon = (type: string) => () => {
+<<<<<<< HEAD
   return <ErdaIcon className="erda-icon" type={type} fill="primary" />;
+=======
+  return <ErdaIcon color="currentColor" className="erda-icon" type={type} fill="primary" />;
+>>>>>>> 1471f7a8... feat(msp): msp menu icon
 };
 
 export const MSIconMap = {
