@@ -139,7 +139,11 @@ const SideBar = () => {
       show: true,
       icon: (
         <Tooltip title={i18n.t('layout:view doc')} placement="right">
+<<<<<<< HEAD
           <ErdaIcon type="help" className="mr-0 mt-1" size="20" />
+=======
+          <ErdaIcon type="help" color="currentColor" className="mr-0 mt-1" size="20" />
+>>>>>>> cd198195... feat:  iconpark official icon migration
         </Tooltip>
       ),
       onClick: () => {
@@ -169,7 +173,11 @@ const SideBar = () => {
           className="message-icon select-none"
           style={{ boxShadow: 'none' }}
         >
+<<<<<<< HEAD
           <ErdaIcon type="remind" className="mr-0 mt-0.5" size="20px" style={customIconStyle} />
+=======
+          <ErdaIcon type="remind" className="mr-0 mt-0.5" size="20px" color="currentColor" style={customIconStyle} />
+>>>>>>> cd198195... feat:  iconpark official icon migration
         </Badge>
       ),
       onClick: () => switchMessageCenter(null),
@@ -197,7 +205,11 @@ const SideBar = () => {
       },
     ]),
     {
+<<<<<<< HEAD
       icon: <ErdaIcon className="mr-1" type="logout" size="14" />,
+=======
+      icon: <ErdaIcon className="mr-1" type="logout" size="14" color="currentColor" />,
+>>>>>>> cd198195... feat:  iconpark official icon migration
       title: i18n.t('layout:logout'),
       onClick: userStore.effects.logout,
     },

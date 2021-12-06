@@ -121,7 +121,11 @@ export const getProjectMenu = (projectId: string, pathname: string) => {
     },
     {
       href: goTo.resolve.projectSetting(), // `/dop/projects/${projectId}/setting`,
+<<<<<<< HEAD
       icon: <ErdaIcon type="config1" />,
+=======
+      icon: <ErdaIcon type="config1" className="mt-3.5 mr-1" color="currentColor" />,
+>>>>>>> cd198195... feat:  iconpark official icon migration
       text: `${i18n.t('{key} Settings', { key: i18n.t('project') })}`,
       subtitle: i18n.t('Setting'),
       show: projectPerm.setting.viewSetting.pass,

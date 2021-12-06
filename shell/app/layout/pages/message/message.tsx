@@ -215,7 +215,11 @@ export const MessageCenter = ({ show }: { show: boolean }) => {
                         <div key={item.id} className="message-item" onClick={() => handleClick(item)}>
                           <div className="message-item-content flex items-center" title={item.title}>
                             <span className="status">{isUnRead ? <Badge color="red" /> : null}</span>
+<<<<<<< HEAD
                             <ErdaIcon className="mr-1" type="remind" size="16px" />
+=======
+                            <ErdaIcon className="mr-1" type="remind" color="currentColor" size="16px" />
+>>>>>>> cd198195... feat:  iconpark official icon migration
                             <span>{item.title}</span>
                           </div>
                           <div>

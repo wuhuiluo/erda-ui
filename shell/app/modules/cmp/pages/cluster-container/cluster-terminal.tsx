@@ -51,7 +51,11 @@ export const K8sClusterTerminalButton = ({ clusterName }: IClusterTerminalProps)
         </div>
       </Drawer>
       <Button className="flex items-center" type="primary" onClick={() => setVisible(true)}>
+<<<<<<< HEAD
         <ErdaIcon className="mr-1" type="terminal" size="14" />
+=======
+        <ErdaIcon className="mr-1" type="terminal" color="currentColor" size="14" />
+>>>>>>> cd198195... feat:  iconpark official icon migration
         {i18n.t('cmp:Kubectl console')}
       </Button>
     </>

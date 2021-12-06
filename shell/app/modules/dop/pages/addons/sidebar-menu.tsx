@@ -19,12 +19,20 @@ export const getSideMenu = ({ rootPath }: { rootPath: string }) => {
   const sideMenu = [
     {
       href: `${rootPath}/overview`,
+<<<<<<< HEAD
       icon: <ErdaIcon type="list-view" />,
+=======
+      icon: <ErdaIcon type="list-view" color="currentColor" className="mt-3.5 mr-1" />,
+>>>>>>> cd198195... feat:  iconpark official icon migration
       text: i18n.t('dop:addon info'),
     },
     {
       href: `${rootPath}/settings`,
+<<<<<<< HEAD
       icon: <ErdaIcon type="config1" />,
+=======
+      icon: <ErdaIcon type="config1" color="currentColor" className="mt-3.5 mr-1" />,
+>>>>>>> cd198195... feat:  iconpark official icon migration
       text: i18n.t('dop:addon setting'),
     },
   ];

@@ -207,7 +207,11 @@ const ApiVersions = () => {
               <Button>
                 <div className="flex items-center">
                   {asset.public ? i18n.t('public') : i18n.t('private')}
+<<<<<<< HEAD
                   <ErdaIcon type="caret-down" size="18px" />
+=======
+                  <ErdaIcon type="caret-down" color="currentColor" size="18px" />
+>>>>>>> cd198195... feat:  iconpark official icon migration
                 </div>
               </Button>
             </Dropdown>

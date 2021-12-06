@@ -57,10 +57,17 @@ const ISSUE_ICON = {
   },
   issue: {
     // 事件类型icon
+<<<<<<< HEAD
     REQUIREMENT: <ErdaIcon type="xuqiu" size="20px" />,
     TASK: <ErdaIcon type="renwu" size="20px" />,
     BUG: <ErdaIcon type="quexian" size="20px" />,
     EPIC: <ErdaIcon type="lichengbei" size="20px" />,
+=======
+    REQUIREMENT: <Icon type="xiangfatianjia" className="issue-icon issue-type requirement" />,
+    TASK: <ErdaIcon type="list-green" className="issue-icon issue-type task mr-1" size="14px" />,
+    BUG: <ErdaIcon type="bug" className="issue-icon issue-type bug mr-1" size="14px" color="orange" />,
+    EPIC: <Icon type="lichengbei" className="issue-icon issue-type epic" />,
+>>>>>>> cd198195... feat:  iconpark official icon migration
   },
   severity: {
     // 严重程度icon（bug）

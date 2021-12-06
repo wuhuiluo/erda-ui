@@ -74,7 +74,11 @@ const dopStore = createFlatStore({
           } else if (addonName === 'mysql') {
             menu.splice(1, 0, {
               href: `${rootPath}/mysql-settings`,
+<<<<<<< HEAD
               icon: <ErdaIcon type="permissions" />,
+=======
+              icon: <ErdaIcon type="permissions" color="currentColor" className="mt-3.5 mr-1" />,
+>>>>>>> cd198195... feat:  iconpark official icon migration
               text: i18n.t('account management'),
               subMenu: [
                 {

@@ -67,7 +67,11 @@ function TableConfig<T extends object = any>({
           overlayClassName="erda-table-columns-filter"
           getPopupContainer={(triggerNode) => triggerNode.parentElement as HTMLElement}
         >
+<<<<<<< HEAD
           <ErdaIcon type="config1" size="20" className={`ml-3 icon-hover bg-hover p-1`} />
+=======
+          <ErdaIcon type="config1" size="20" className={`ml-3 icon-hover bg-hover p-1`} color="currentColor" />
+>>>>>>> cd198195... feat:  iconpark official icon migration
         </Popover>
       </div>
     </div>
